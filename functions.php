@@ -18,6 +18,7 @@ if (!defined('GE_DIR_URI')) {
 // print_r(GE_DIR_PATH);
 // wp_die();
 require_once GE_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once GE_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function ge_get_theme_instance()
 {
